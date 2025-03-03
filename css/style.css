@@ -16,6 +16,9 @@ body{
 main{
     flex-grow: 1;
 }
+.resize-none{
+    resize: none;
+}
 .marca{
     font-family: "blackHan", sans-serif;
 
