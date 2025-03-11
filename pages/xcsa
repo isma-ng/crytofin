@@ -1,0 +1,242 @@
+      <section class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-8 order-2 order-md-2 mt-4">
+      <h2 class="fs-1">Tu seguridad como prioridad</h2>
+      <p class="fs-5">Seguimos las mejores prácticas en cyberseguridad sin complicarte tus operaciones diarias.</p>
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-md-6">
+          <div class="card shadow h-100">
+            <div class="card-body text-start">
+              <i class="bi bi-eye fs-1 text-danger"></i>
+              <h4 class="card-title">Biometrica</h4>
+              <p class="card-text">Nuestra tecnologia te permite acceder atu cuenta usando tu huella digital o tu cara.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow h-100">
+            <div class="card-body text-start">
+              <i class="bi bi-fingerprint fs-1 text-primary"></i>
+              <h4 class="card-title">Segundo factor</h4>
+              <p class="card-text">Usamos un token invisible para todas las operaciones que hagas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow h-100">
+            <div class="card-body text-start">
+              <i class="bi bi-puzzle fs-1 text-info"></i>
+              <h4 class="card-title">Personal</h4>
+              <p class="card-text">Vas a poder ingresar desde un dispositivo a las vez en tu cuenta.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow h-100">
+            <div class="card-body text-start">
+              <i class="bi bi-robot fs-1 text-success"></i>
+              <h4 class="card-title">100% encriptado</h4>
+              <p class="card-text">Todas las transacciones son encriptadas para tu mayor seguridad.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 order-1 order-md-1">
+      <img src="./img/iphone-illustration-sec.png" class="img-fluid h-100 w-100" alt="celular ilustracion">
+    </div>
+  </div> 
+</section>
+
+    </main>
+    <!-- Modal crea tu cuenta -->
+<div class="modal fade" id="crearcuenta" tabindex="-1" aria-labelledby="crearcuentaLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="crearcuentaLabel"> crear tu cuenta:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h2>crear tu cuenta:</h2>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark-subtle py-3">
+  <div class="container">
+    <div
+      class="d-flex gap-3 justify-content-center justify-content-md-start"
+    >
+      <h4 class="marca align-self-center mb-0">CryptoFin</h4>
+      <a href="#" class="link-secondary"
+        ><i class="bi bi-instagram fs-4"></i
+      ></a>
+      <a href="#" class="link-secondary">
+        <i class="bi bi-twitter-x fs-4"></i
+      ></a>
+      <a href="#" class="link-secondary"
+        ><i class="bi bi-facebook fs-4"></i
+      ></a>
+    </div>
+    <div class="row">
+      <article class="col-12 col-md-6 col-lg-3 text-center text-md-start">
+        <h6 class="text-secondary">Navegación</h6>
+        <ul class="list-unstyled">
+          <li>
+            <a
+              href="./quienesSomos.html"
+              class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+              >¿Quienes somos?</a
+            >
+          </li>
+          <li>
+            <a
+              href="./seguridad.html"
+              class="link-secondary link-underline-opacity-0"
+              >Seguridad</a
+            >
+          </li>
+          <li>
+            <a
+              href="./preguntasFrecuentes.html"
+              class="link-secondary link-underline-opacity-0"
+              >Preguntas frecuentes</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contactos.html"
+              class="link-secondary link-underline-opacity-0"
+              >Contactos</a
+            >
+          </li>
+          <li>
+            <a
+              href="./error404.html"
+              class="link-secondary link-underline-opacity-0"
+              >Ayuda</a
+            >
+          </li>
+        </ul>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3 text-center text-md-start">
+        <h6 class="text-secondary">Contacto</h6>
+        <ul class="list-unstyled">
+          <li>
+            <a
+              href="./error404.html"
+              class="link-secondary link-underline-opacity-25 link-underline-opacity-100-hover"
+              >Email: cryptoFin@mail.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="./error404.html"
+              class="link-secondary link-underline-opacity-0"
+              >Teléfono: +54 3817776635</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://maps.app.goo.gl/gf4MW3TFYr9LGLHT8"
+              target="_blank"
+              class="link-secondary link-underline-opacity-0"
+              >Dirección: Gral. José María Paz 576, San Miguel de Tucumán,
+              Tucumán</a
+            >
+          </li>
+        </ul>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3">
+        <a href="./error404.html">
+          <img
+            src="../img/usuariosfinancieros.png"
+            alt="Logo usuarios financieros Banco Central"
+            class="w-100 mb-3"
+          />
+        </a>
+      </article>
+      <article class="col-12 col-md-6 col-lg-3 text-center">
+        <h6 class="text-secondary">Unite</h6>
+
+        <a href="./error404.html"
+          ><img
+            src="../img/badge-apple-store.svg"
+            alt="Logo Apple Store"
+            class="mb-3"
+        /></a>
+        <a href="./pages/error404.html"
+          ><img src="../img/google-play-badge-bb.svg" alt="Logo google play"
+        /></a>
+      </article>
+    </div>
+  </div>
+</footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>  
+
+
+
+<section class="bg-primary-subtle py-4">
+    <div class="container text-center">
+      <h2>Unete a la revolucion de las cryptos con cryptofin</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis dolorem ipsam impedit doloremque quibusdam neque in. Ipsum, repellendus dolores provident ipsam odit aspernatur, hic in dicta eligendi debitis rem repudiandae consectetur doloribus, amet voluptates ipsa quidem?</p>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#crearcuenta">Crear una cuenta
+      </button>
+    </div>
+  </section>
+      <!-- Modal crea tu cuenta -->
+<div class="modal fade" id="crearcuenta" tabindex="-1" aria-labelledby="crearcuentaLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="crearcuentaLabel"> Crear tu cuenta:</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>Crear tu cuenta:</h2>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
