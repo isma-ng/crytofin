@@ -227,26 +227,28 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <h2>crear tu cuenta:</h2>
-              <form>
+              <p> Completa los siguientes datos para crear tu cuenta:</p>
+              <form id="FormCreaTuCuenta" autocomplete="off">
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  <label for="nombreYapellido" class="form-label">Nombre y apellido *</label>
+                  <input type="text" class="form-control" id="nombreYapellido" required minlength="3" maxlength="40">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputEmail1" class="form-label">correo *</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required minlength="10" maxlength="150">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="mb-3">
+                  <label for="Contraseña" class="form-label">Contraseña *</label>
+                  <input type="password" class="form-control" id="Contraseña" required minlength="8" maxlength="50">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="mb-3">
+                  <label for="Contraseña" class="form-label">Confirmar contraseña *</label>
+                  <input type="password" class="form-control" id="Contraseña" required minlength="8" maxlength="50">
+                </div>
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="submit" form="FormCreaTuCuenta"  class="btn btn-primary">enviar</button>
             </div>
           </div>
         </div>
@@ -363,4 +365,4 @@
       </footer>
           <script src="./js/bootstrap.min.js"></script>
         </body>
-      </html>  
+      </html>   
